@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--largura inicial-->
+    <link rel="stylesheet" href="css/style.css">
+    <title>NodeProp - Soluções Digitais</title>
+    <meta name="description" content="Agencia especializada em aplicativos mobile"> <!-- descrição-->
+    <meta name="keywords"  content="mobile, sites, marketing" > <!--palavras chaves-->
+    <meta name="robots" content="index, follow"  > <!--o que sera indexado pelos buscadores-->
+    <meta name="author" content="Joao Passos"  >
+    <script src="https://kit.fontawesome.com/6c7c76a0d5.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/icon.png">
+</head>
+<body>
+    <header class="cabecalho">
+     <a href="index.html">    <h1 class="logo">NodeProp</h1>   </a>
+     <button class="btn-menu"> <i class="fas fa-bars fa-lg"></i> </button>
+     <nav class="menu">
+         <a class="btn-close"><i class="fa fa-times"></i></a>
+         <ul>
+             <li><a href="#">Home</a></li>
+             <li><a href="#">Clientes</a></li>
+             <li><a href="#">Serviços</a></li>
+             <li><a href="#">Blog</a></li>
+             <li><a href="#">Quem somos</a></li>
+             <li><a href="#">Contato</a></li>
+         </ul>
+
+
+     </nav>
+
+    </header>
+
+    <div class="banner">
+        <div class="title">
+            <h2>OUSE INOVAR</h2>
+            <h3>Criamos experiencias estratégicas que conectam marcas e consumidores</h3>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar"> Cadastrar  <i class="fa fa-arrow-circle-right"></i>  </button>
+            <button class="btn-sobre"> Sobre <i class="fa fa-question-circle"></i> </button> 
+        </div>
+    </div>
+    <div >
+        <main class="servicos">
+            <article class="servico">
+                <a href="#"> <img src="img/criacoes.jpg" alt="camapanhas publicitarias"> </a>
+                <div class="inner">
+                    <a href="#"> Campanhas publicitarias </a>
+                    <h4>impressões, VTs e Banners</h4>
+                    <p> Se voce esta precisando de criação de algum material em especifico, conte com a nossa equipe de profissionais. Eles farão toda a campanha publicitaria.</p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"> <img src="img/md.jpg" alt="marketing digital"> </a>
+                <div class="inner">
+                    <a href="#"> Marketing Digital </a>
+                    <h4>Administração de Redes Sociais</h4>
+                    <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quibusdam laboriosam vitae repudiandae repellat suscipit sequi incidunt veniam obcaecati eligendi officiis est iste animi, in ullam impedit reiciendis! Soluta, necessitatibus!.</p>
+                </div>
+            </article>
+            <article class="servico">
+                <a href="#"> <img src="img/cs.jpg" alt="criacoes de sites"> </a>
+                <div class="inner">
+                    <a href="#"> Criação de Sites </a>
+                    <h4>Sites Administráveis</h4>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus non sunt commodi incidunt quisquam error ab enim pariatur voluptatum recusandae, suscipit obcaecati qui architecto id labore eos ducimus facere perferendis?.</p>
+                </div>
+            </article>
+        </main>
+    </div>
+
+    <section class="newsletter">
+        <h2>Inscreva-se Agora</h2>
+        <h3>Receba novidades e muito mais</h3>
+        <form>
+            <input type="email" name="email" placeholder="Seu email">
+            <button>Cadastrar</button>
+        </form>
+
+    </section>
+                            <!--Rodapé-->
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href="#"> <i class="fab fa-facebook"></i> </a>
+            <a href="#"> <i class="fab fa-twitter"></i> </a>
+            <a href="#"> <i class="fab fa-google"></i> </a>
+            <a href="#"> <i class="fab fa-instagram"></i> </a>
+            <a href="#"> <i class="fas fa-envelope"></i> </a>
+        </div>
+        <p class="copyright ">
+            Copyright  NodeProp 2021. Todos os direitos reservados
+        </p>
+    </footer>
+                            
+                            <!--Jquery-->
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script> 
+    $(".btn-menu").click(function(){
+        $(".menu").show();
+    });
+    $(".btn-close").click(function(){
+        $(".menu").hide();
+    });
+    </script>
+</body>
+</html>
